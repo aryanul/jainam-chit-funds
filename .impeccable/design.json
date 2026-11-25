@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T19:10:00+00:00",
+  "title": "Design System: Jainam Chit Funds",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Jainam Navy",
+        "canonical": "#1f2c6e",
+        "tonalRamp": [
+          "#0d1338",
+          "#11123a",
+          "#1f2c6e",
+          "#36478a",
+          "#5b6aa6",
+          "#939dc6",
+          "#c9cfe4",
+          "#eef2fa"
+        ]
+      },
+      "navy-900": {
+        "role": "primary",
+        "displayName": "Logo Navy",
+        "canonical": "#11123a",
+        "tonalRamp": [
+          "#07071a",
+          "#11123a",
+          "#1c1e55",
+          "#2e3170",
+          "#50538f",
+          "#8587b3",
+          "#bfc0d9",
+          "#ebebf4"
+        ]
+      },
+      "navy-050": {
+        "role": "primary",
+        "displayName": "Navy Mist",
+        "canonical": "#eef2fa",
+        "tonalRamp": [
+          "#071538",
+          "#0b1f4a",
+          "#13306b",
+          "#2c4a8a",
+          "#5873ab",
+          "#93a6cc",
+          "#c9d3e8",
+          "#eef2fa"
+        ]
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Tagline Blue",
+        "canonical": "#2a4fa0",
+        "tonalRamp": [
+          "#0f1d3d",
+          "#1a326a",
+          "#2a4fa0",
+          "#4a6db8",
+          "#7590cb",
+          "#a5b7dd",
+          "#d2dcef",
+          "#eef2fa"
+        ]
+      },
+      "red": {
+        "role": "tertiary",
+        "displayName": "Jainam Red",
+        "canonical": "#e8333a",
+        "tonalRamp": [
+          "#4f0d10",
+          "#8c171c",
+          "#c4222a",
+          "#e8333a",
+          "#ee6a6f",
+          "#f39a9d",
+          "#f9cbcd",
+          "#fdeced"
+        ]
+      },
+      "whatsapp-green": {
+        "role": "tertiary",
+        "displayName": "WhatsApp Green",
+        "canonical": "#0f7a40",
+        "tonalRamp": [
+          "#06331b",
+          "#0b6434",
+          "#0f7a40",
+          "#2f9a5c",
+          "#62b886",
+          "#9fd4b3",
+          "#d2ebdc",
+          "#eef8f2"
+        ]
+      },
+      "whatsapp-green-deep": {
+        "role": "tertiary",
+        "displayName": "WhatsApp Green Deep",
+        "canonical": "#0b6434",
+        "tonalRamp": [
+          "#06331b",
+          "#0b6434",
+          "#0f7a40",
+          "#2f9a5c",
+          "#62b886",
+          "#9fd4b3",
+          "#d2ebdc",
+          "#eef8f2"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#0f1b33",
+        "tonalRamp": [
+          "#0f1b33",
+          "#2b3750",
+          "#4a5670",
+          "#616b80",
+          "#8a93a6",
+          "#c9d2e3",
+          "#e3e7ef",
+          "#f6f8fb"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#4a5670",
+        "tonalRamp": [
+          "#0f1b33",
+          "#2b3750",
+          "#4a5670",
+          "#616b80",
+          "#8a93a6",
+          "#c9d2e3",
+          "#e3e7ef",
+          "#f6f8fb"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Fog Slate",
+        "canonical": "#616b80",
+        "tonalRamp": [
+          "#0f1b33",
+          "#2b3750",
+          "#4a5670",
+          "#616b80",
+          "#8a93a6",
+          "#c9d2e3",
+          "#e3e7ef",
+          "#f6f8fb"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e3e7ef",
+        "tonalRamp": [
+          "#0f1b33",
+          "#2b3750",
+          "#4a5670",
+          "#616b80",
+          "#8a93a6",
+          "#c9d2e3",
+          "#e3e7ef",
+          "#f6f8fb"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Control Line",
+        "canonical": "#c9d2e3",
+        "tonalRamp": [
+          "#0f1b33",
+          "#2b3750",
+          "#4a5670",
+          "#616b80",
+          "#8a93a6",
+          "#c9d2e3",
+          "#e3e7ef",
+          "#f6f8fb"
+        ]
+      },
+      "line-firm": {
+        "role": "neutral",
+        "displayName": "Firm Line",
+        "canonical": "#b8c3d9",
+        "tonalRamp": [
+          "#0f1b33",
+          "#2b3750",
+          "#4a5670",
+          "#616b80",
+          "#8a93a6",
+          "#c9d2e3",
+          "#e3e7ef",
+          "#f6f8fb"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Cool Grey",
+        "canonical": "#f6f8fb",
+        "tonalRamp": [
+          "#0f1b33",
+          "#2b3750",
+          "#4a5670",
+          "#616b80",
+          "#8a93a6",
+          "#c9d2e3",
+          "#e3e7ef",
+          "#f6f8fb"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0f1b33",
+          "#2b3750",
+          "#4a5670",
+          "#616b80",
+          "#8a93a6",
+          "#c9d2e3",
+          "#e3e7ef",
+          "#f6f8fb"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus Blue",
+        "canonical": "#5b8def",
+        "tonalRamp": [
+          "#14306e",
+          "#1f4aa6",
+          "#3a6bd6",
+          "#5b8def",
+          "#86abf4",
+          "#b2c9f8",
+          "#d9e5fb",
+          "#f0f5fe"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The hero headline only; second line in red."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section and CTA headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Step and card titles."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Facts-row stats, tabular."
+      },
+      "figure-lg": {
+        "displayName": "Figure Large",
+        "purpose": "The calculator payout, tabular."
+      },
+      "quote": {
+        "displayName": "Quote",
+        "purpose": "The member testimonial."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Paragraph under a section heading."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; 16px under 640px."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Button labels; 15px on small buttons."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Table heads and field captions, sentence case."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-rest",
+        "value": "0 1px 2px rgba(15, 27, 51, .04)",
+        "purpose": "Every in-flow card, with its 1px hairline border."
+      },
+      {
+        "name": "lift",
+        "value": "0 1px 2px rgba(15, 27, 51, .06), 0 10px 30px -12px rgba(15, 27, 51, .14)",
+        "purpose": "The mobile menu dropdown, the one light-background element that overlaps content."
+      },
+      {
+        "name": "control-stroke",
+        "value": "inset 0 0 0 1.5px #c9d2e3",
+        "purpose": "Outline button, choice tile, waiting member chip and menu trigger borders; navy on hover/selected (2px when selected)."
+      },
+      {
+        "name": "field-focus",
+        "value": "0 0 0 3px rgba(19, 48, 107, .15)",
+        "purpose": "Text field focus halo, border turning navy. Still the E/F navy RGB in pro.css (drift, not re-tinted)."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 3px solid #5b8def; outline-offset: 2px",
+        "purpose": "Keyboard focus on every interactive element."
+      },
+      {
+        "name": "hero-ground",
+        "value": "url(wavy two-line underprint, #2a4fa0 at 7%), linear-gradient(180deg, #fff 0%, #f6f8fb 100%)",
+        "purpose": "Background of the light hero, under the multiplied kalash loop."
+      },
+      {
+        "name": "kalash-blend",
+        "value": "mix-blend-mode: multiply",
+        "purpose": "Drops the hero video's white ground into the page; no frame, radius or shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": ".15s",
+        "purpose": "Background, colour and stroke changes on buttons and choice tiles."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px), instant",
+        "purpose": "Button :active."
+      },
+      {
+        "name": "faq-caret",
+        "value": ".2s rotate(180deg)",
+        "purpose": "FAQ caret when a question opens."
+      },
+      {
+        "name": "dock",
+        "value": ".25s ease-out",
+        "purpose": "Phone dock slides up once the hero buttons leave the viewport."
+      },
+      {
+        "name": "scroll",
+        "value": "scroll-behavior: smooth",
+        "purpose": "In-page nav jumps."
+      },
+      {
+        "name": "chart",
+        "value": "height .3s ease-out",
+        "purpose": "Calculator bars re-scale when an input changes."
+      },
+      {
+        "name": "kalash-loop",
+        "value": "7.7s seamless loop, 0.3s crossfaded seam",
+        "purpose": "Hero video; plays only while on screen (IntersectionObserver)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition-duration 0s; scroll-behavior auto; kalash autoplay removed and paused on its poster",
+        "purpose": "All motion off; nothing depends on it."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "1080px"
+      },
+      {
+        "name": "menu-dock",
+        "value": "900px"
+      },
+      {
+        "name": "phone",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "WhatsApp Button",
+      "kind": "button",
+      "refersTo": "button-whatsapp",
+      "description": "Every action that opens WhatsApp, and nothing else.",
+      "html": "<a class=\"ds-btn-wa\" href=\"#\">WhatsApp us</a>",
+      "css": ".ds-btn-wa{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border-radius:10px;border:0;font:650 16px/1 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;text-decoration:none;white-space:nowrap;transition:background-color .15s,color .15s,box-shadow .15s;background:#0f7a40;color:#fff;} .ds-btn-wa:hover{background:#0b6434;} .ds-btn-wa:active{transform:translateY(1px);} .ds-btn-wa:focus-visible{outline:3px solid #5b8def;outline-offset:2px;}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary action, usually Call; white with a 1.5px stroke that goes navy on hover.",
+      "html": "<a class=\"ds-btn-line\" href=\"#\">Call +91 97431 95900</a>",
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border-radius:10px;border:0;font:650 16px/1 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;text-decoration:none;white-space:nowrap;transition:background-color .15s,color .15s,box-shadow .15s;background:#fff;color:#1f2c6e;box-shadow:inset 0 0 0 1.5px #c9d2e3;} .ds-btn-line:hover{box-shadow:inset 0 0 0 1.5px #1f2c6e;} .ds-btn-line:active{transform:translateY(1px);} .ds-btn-line:focus-visible{outline:3px solid #5b8def;outline-offset:2px;}"
+    },
+    {
+      "name": "Navy Button",
+      "kind": "button",
+      "refersTo": "button-navy",
+      "description": "Get directions, and Call in the phone dock.",
+      "html": "<a class=\"ds-btn-navy\" href=\"#\">Get directions</a>",
+      "css": ".ds-btn-navy{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border-radius:10px;border:0;font:650 16px/1 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;text-decoration:none;white-space:nowrap;transition:background-color .15s,color .15s,box-shadow .15s;background:#1f2c6e;color:#fff;} .ds-btn-navy:hover{background:#11123a;} .ds-btn-navy:active{transform:translateY(1px);} .ds-btn-navy:focus-visible{outline:3px solid #5b8def;outline-offset:2px;}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "Calculator name field: 50px, hairline border, navy border and halo on focus.",
+      "html": "<input class=\"ds-field\" type=\"text\" placeholder=\"e.g. Priya\">",
+      "css": ".ds-field{width:280px;height:50px;padding:0 14px;border-radius:10px;border:1.5px solid #e3e7ef;font:400 17px/1.65 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;color:#0f1b33;background:#fff;} .ds-field::placeholder{color:#5f6878;} .ds-field:focus{border-color:#1f2c6e;outline:none;box-shadow:0 0 0 3px rgba(19,48,107,.15);}"
+    },
+    {
+      "name": "Choice Tile",
+      "kind": "chip",
+      "refersTo": "choice-tile",
+      "description": "Radio tile for goal and chit value; mist fill and 2px navy stroke when checked.",
+      "html": "<label class=\"ds-choice\"><input type=\"radio\" name=\"ds-p\"><span>&#8377;5 L</span></label><label class=\"ds-choice\"><input type=\"radio\" name=\"ds-p\" checked><span>&#8377;10 L</span></label>",
+      "css": ".ds-choice{position:relative;display:inline-block;width:96px;margin-right:8px;} .ds-choice input{position:absolute;inset:0;opacity:0;margin:0;} .ds-choice span{display:flex;justify-content:center;padding:12px 4px;border-radius:10px;font:600 15px/1.4 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;color:#4a5670;box-shadow:inset 0 0 0 1.5px #e3e7ef;transition:box-shadow .15s,background-color .15s,color .15s;} .ds-choice:hover span{box-shadow:inset 0 0 0 1.5px #b8c3d9;} .ds-choice input:checked+span{background:#eef2fa;color:#1f2c6e;box-shadow:inset 0 0 0 2px #1f2c6e;} .ds-choice input:focus-visible+span{outline:3px solid #5b8def;outline-offset:2px;}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Sticky white header: logo, slate links that turn navy, small WhatsApp button.",
+      "html": "<header class=\"ds-header\"><b class=\"ds-logo\">Jainam</b><nav><a href=\"#\">Why Jainam</a><a href=\"#\">How it works</a><a href=\"#\">Calculator</a></nav><a class=\"ds-hbtn\" href=\"#\">WhatsApp us</a></header>",
+      "css": ".ds-header{display:flex;align-items:center;gap:28px;height:84px;padding:0 24px;background:rgba(255,255,255,.96);border-bottom:1px solid #e3e7ef;font-family:'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;} .ds-logo{margin-right:auto;color:#1f2c6e;font-size:22px;} .ds-header nav{display:flex;gap:26px;} .ds-header nav a{text-decoration:none;font-size:15.5px;font-weight:600;color:#4a5670;padding:8px 0;} .ds-header nav a:hover{color:#1f2c6e;} .ds-header a:focus-visible{outline:3px solid #5b8def;outline-offset:2px;} .ds-hbtn{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;border-radius:10px;background:#0f7a40;color:#fff;font:650 15px/1 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;text-decoration:none;} .ds-hbtn:hover{background:#0b6434;}"
+    },
+    {
+      "name": "Icon-Well Step Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "White card with a hairline and rest shadow, led by a 48px navy-mist icon well.",
+      "html": "<div class=\"ds-card\"><span class=\"ds-well\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M117.25 157.92a60 60 0 1 0-66.5 0 95.83 95.83 0 0 0-47.22 37.71 8 8 0 1 0 13.4 8.74 80 80 0 0 1 134.14 0 8 8 0 0 0 13.4-8.74 95.83 95.83 0 0 0-47.22-37.71ZM40 108a44 44 0 1 1 44 44 44.05 44.05 0 0 1-44-44Z\"/></svg></span><h3>Join a group</h3><p>Choose a chit value. You join 19 other members for 20 months.</p></div>",
+      "css": ".ds-card{width:260px;padding:26px 24px;background:#fff;border:1px solid #e3e7ef;border-radius:12px;box-shadow:0 1px 2px rgba(15,27,51,.04);font-family:'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;} .ds-well{width:48px;height:48px;border-radius:12px;background:#eef2fa;color:#1f2c6e;display:grid;place-items:center;margin-bottom:18px;} .ds-card h3{margin:0 0 8px;font-size:19px;font-weight:680;line-height:1.3;letter-spacing:-.01em;color:#1f2c6e;} .ds-card p{margin:0;font-size:15.5px;line-height:1.65;color:#4a5670;}"
+    },
+    {
+      "name": "Calculator Result Panel",
+      "kind": "custom",
+      "refersTo": "result-panel",
+      "description": "Navy panel: payout figure, 20-bar instalment chart, totals, WhatsApp send.",
+      "html": "<div class=\"ds-result\"><h3>You receive in Month 6</h3><p class=\"ds-big\">&#8377;7,89,474<small>after your winning discount</small></p><div class=\"ds-chart\"><i class=\"p\" style=\"height:28%\"></i><i class=\"p\" style=\"height:32%\"></i><i class=\"p\" style=\"height:36%\"></i><i class=\"p\" style=\"height:40%\"></i><i class=\"p\" style=\"height:44%\"></i><i class=\"t\" style=\"height:48%\"></i><i style=\"height:52%\"></i><i style=\"height:56%\"></i><i style=\"height:60%\"></i><i style=\"height:64%\"></i></div><dl><div><dt>Total you pay</dt><dd>&#8377;8,68,750</dd></div></dl></div>",
+      "css": ".ds-result{width:320px;background:#1f2c6e;color:#fff;padding:32px;display:flex;flex-direction:column;gap:18px;font-family:'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;} .ds-result h3{margin:0;font-size:17px;font-weight:600;opacity:.85;} .ds-big{margin:0;font-size:40px;font-weight:780;letter-spacing:-.02em;line-height:1;font-variant-numeric:tabular-nums;} .ds-big small{display:block;font-size:14px;font-weight:500;opacity:.8;letter-spacing:0;margin-top:8px;} .ds-chart{display:grid;grid-template-columns:repeat(10,1fr);gap:3px;align-items:end;height:96px;} .ds-chart i{border-radius:3px 3px 0 0;background:rgba(255,255,255,.28);transition:height .3s ease-out;} .ds-chart i.p{background:rgba(255,255,255,.55);} .ds-chart i.t{background:#fff;} .ds-result dl{margin:0;padding-top:18px;border-top:1px solid rgba(255,255,255,.18);} .ds-result dl div{display:flex;justify-content:space-between;font-size:15.5px;} .ds-result dt{opacity:.82;} .ds-result dd{margin:0;font-weight:700;font-variant-numeric:tabular-nums;}"
+    },
+    {
+      "name": "Committee Comparison",
+      "kind": "custom",
+      "refersTo": "compare-cell-us",
+      "description": "Old way struck through in red at 60%; the Jainam column navy-headed with mist cells and blue checks.",
+      "html": "<table class=\"ds-cmp\"><thead><tr><th></th><th>Family committee</th><th class=\"us\">Jainam chit</th></tr></thead><tbody><tr><th>Registration</th><td class=\"old\">None</td><td class=\"us\">Chit Funds Act, 1982</td></tr><tr><th>Paperwork</th><td class=\"old\">A spoken promise</td><td class=\"us\">Written chit agreement</td></tr></tbody></table>",
+      "css": ".ds-cmp{border-collapse:collapse;font-family:'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;background:#fff;border:1px solid #e3e7ef;} .ds-cmp th,.ds-cmp td{padding:18px 20px;text-align:left;border-bottom:1px solid #e3e7ef;font-size:15.5px;} .ds-cmp thead th{font-size:14px;color:#616b80;font-weight:650;background:#f6f8fb;} .ds-cmp thead th.us{background:#1f2c6e;color:#fff;} .ds-cmp tbody th{font-weight:650;color:#0f1b33;} .ds-cmp td.us{background:#eef2fa;color:#1f2c6e;font-weight:650;} .ds-cmp td.old{color:#616b80;text-decoration:line-through;text-decoration-color:rgba(232,51,58,.6);}"
+    },
+    {
+      "name": "Hero with Kalash Loop",
+      "kind": "custom",
+      "refersTo": "hero",
+      "description": "Light hero: copy left, headline's second line in red; the kalash video multiplied into the page behind it, bleeding off the right edge.",
+      "html": "<section class=\"ds-hero\"><div class=\"ds-kalash\" aria-hidden=\"true\"></div><div class=\"ds-copy\"><h1>Trusted like family. <span>Protected by law.</span></h1><p>A Jain-founded chit fund in Chickpet, Bengaluru.</p></div></section>",
+      "css": ".ds-hero{position:relative;isolation:isolate;overflow:hidden;padding:56px 32px;color:#0f1b33;background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='28'%3E%3Cg fill='none' stroke='%232a4fa0' stroke-opacity='.07' stroke-width='.8'%3E%3Cpath d='M0 7 Q30 1 60 7 T120 7 T180 7 T240 7'/%3E%3Cpath d='M0 21 Q30 15 60 21 T120 21 T180 21 T240 21'/%3E%3C/g%3E%3C/svg%3E\"),linear-gradient(180deg,#fff 0%,#f6f8fb 100%);font-family:'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;} .ds-copy{max-width:420px;} .ds-hero h1{margin:0;color:#11123a;font-size:44px;line-height:1.08;font-weight:760;letter-spacing:-.02em;} .ds-hero h1 span{display:block;color:#e8333a;} .ds-hero p{margin:20px 0 0;font-size:19px;color:#4a5670;} .ds-kalash{position:absolute;z-index:-1;top:50%;right:-2%;width:55%;aspect-ratio:16/9;transform:translateY(-50%);mix-blend-mode:multiply;background:radial-gradient(30% 45% at 68% 55%,#f3e2b0 0%,#fbf3dc 45%,#fff 75%);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Registered Office",
+    "overview": "The page looks like an established, regulated finance company, the category standard done with precision, in the client's own colours: the ink navy, tagline blue and red of the Jainam logo, which sits full size in the header. Credibility comes from order and specifics: a navy utility bar stating the registration, a white header with the real logo, a light hero whose headline drops its second line into brand red, a row of hard numbers, a straight comparison with the family committee people already know, a working calculator that charts every month, a comparison with an FD and a loan, the office on a map, a named member's words.\n\nThe hero carries the one image of warmth: a photoreal brass kalash with mango leaves and red thread, gold coins dropping into it one at a time, looping seamlessly. It is drawn with `mix-blend-mode: multiply`, so its white ground vanishes into the page and only the vessel and its soft glow remain; it bleeds past the right edge like part of the page, not a video in a box. Everything else is calm: generous section padding, white and cool-grey bands alternating from the hero down, dark navy kept for the utility bar, the CTA band and the footer that frame the page. Hairline borders, one typeface in a few weights. WhatsApp green appears only on buttons that open WhatsApp, so the main action is the most saturated thing on any screen. Nothing animates on scroll; content is visible by default.",
+    "keyCharacteristics": [
+      "Colours sampled from the client logo: `navy-900` for the utility bar and footer, `navy` for headings, actions and the CTA band, `blue` for line work and ticks, `red` for brand moments.",
+      "A light hero: white fading to cool grey under a faint two-line wavy underprint, the copy on the left, the kalash loop behind it on the right.",
+      "The product shown, not described: the calculator's 20-bar instalment chart, driven by the tested `schedule()` in `assets/plan.js`.",
+      "One typeface: Hanken Grotesk, 400 to 800, sentence case, tight negative tracking on headings, tabular figures on every number.",
+      "10px controls, 12px cards, 16px photos; hairline borders.",
+      "One outline icon set (Phosphor regular), coloured through CSS masks.",
+      "Real full-colour photography of people and places, with rounded corners.",
+      "Every action ends in WhatsApp (green) or a call (white outline, or navy in the phone dock)."
+    ],
+    "rules": [
+      {
+        "name": "The Logo Colours Rule",
+        "body": "The brand colours are the logo's: `navy-900`, `blue` and `red` were sampled from `assets/brand/jainam-logo.png`. Don't tune them by eye; a new brand colour comes from the client's artwork or not at all.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Green Rule",
+        "body": "Green means \"this opens WhatsApp\". Every WhatsApp button is green; nothing else is.",
+        "section": "colors"
+      },
+      {
+        "name": "The Brand-Moment Red Rule",
+        "body": "Red marks the brand: the headline's second line, the struck-out old way, the values icons. Never a button, link, background block or small text; at 4:1 on white it is for display-size type and icons only.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light-Page Rule",
+        "body": "The hero and every section are light, alternating white and `surface`. Dark is kept for the frame: the `navy-900` utility bar, the `navy` CTA band and the `navy-900` footer. No dark hero, no dark mid-page band.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Every number a visitor compares (stats, table cells, `dd`, `output`, the result figure) is tabular.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sentence-Case Rule",
+        "body": "Headings, labels and buttons are sentence case. No uppercase labels, no eyebrows or kickers over headings.",
+        "section": "typography"
+      },
+      {
+        "name": "The Float-Only Shadow Rule",
+        "body": "A cast shadow is for an element that floats: the lift, on the dropdown. Cards in a flow get a hairline and the rest shadow, never more.",
+        "section": "elevation"
+      },
+      {
+        "name": "The No-Box Rule",
+        "body": "The hero video never gets a frame, card, border, radius or shadow. It multiplies into the page; if its edge or its white ground shows, it is wrong.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** style new work with `pro.css` plus `ultimate.css` and the tokens above; put brand overrides in `ultimate.css`.",
+      "**Do** use the client's logo as supplied, and take brand colours from it.",
+      "**Do** keep green for WhatsApp buttons only, and give every WhatsApp button green.",
+      "**Do** keep the page light: alternate white and `surface` bands from the hero down, with the `navy` CTA band and `navy-900` footer closing it.",
+      "**Do** keep the kalash loop frameless, multiplied into the page, paused off screen and still under reduced motion.",
+      "**Do** show the product working (the instalment chart) with figures from the tested `schedule()`, labelled as illustrative.",
+      "**Do** set every comparable number in tabular figures.",
+      "**Do** use Hanken Grotesk only, sentence case throughout.",
+      "**Do** use real full-colour photographs of people and places with rounded corners.",
+      "**Do** lead list items and steps with a 48px icon well and a Phosphor regular icon.",
+      "**Do** keep 3px focus rings and tap targets of at least 42px (50px for primary actions)."
+    ],
+    "donts": [
+      "**Don't** put a dark navy hero or a dark mid-page band on the page.",
+      "**Don't** put the hero video in a box, card, frame or shadow, or on a non-white ground where multiply would tint it.",
+      "**Don't** use red for buttons, links, backgrounds or small text.",
+      "**Don't** put kickers, eyebrows or uppercase labels above headings.",
+      "**Don't** put a cast shadow on in-flow cards.",
+      "**Don't** add a second typeface, italics for emphasis, or a second icon set.",
+      "**Don't** use cartoonish 3D, emoji-style illustration or gimmick widgets; the photoreal kalash loop is the hero's only image.",
+      "**Don't** animate on scroll or hide content until it scrolls in; motion is state change and the hero loop, and all of it stops under reduced motion."
+    ]
+  }
+}

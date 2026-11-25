@@ -1,0 +1,63 @@
+/* Jainam, combined site: the professional system (pro.css) with the Security Print hero.
+   Colours are taken from the real logo: red #E8333A, navy #11123A, blue #2A4FA0. */
+
+:root {
+  --navy: #1f2c6e;       /* headings, primary buttons */
+  --navy-900: #11123a;   /* the logo's navy: footer, CTA band */
+  --blue: #2a4fa0;       /* the logo's tagline blue: underprint, ticks, icons */
+  --red: #e8333a;        /* the logo's red: this month, the headline's second line */
+}
+
+/* Real logo in the header and, on a white chip, in the footer. */
+.brand img { height: 58px; width: auto; }
+.header .wrap { height: 84px; }
+html { scroll-padding-top: 104px; } /* anchors land below the taller header with breathing room */
+.logo-chip { display: inline-block; background: #fff; padding: 10px 14px; border-radius: 10px; }
+.logo-chip img { height: 40px; }
+
+/* ---------- Hero: light, with the brass kalash filling coin by coin ---------- */
+.hero {
+  position: relative; isolation: isolate; overflow: hidden;
+  min-height: min(700px, calc(100svh - 122px)); display: grid; align-items: center;
+  padding: clamp(40px, 5vw, 64px) 0;
+  color: var(--ink);
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='28'%3E%3Cg fill='none' stroke='%232a4fa0' stroke-opacity='.07' stroke-width='.8'%3E%3Cpath d='M0 7 Q30 1 60 7 T120 7 T180 7 T240 7'/%3E%3Cpath d='M0 21 Q30 15 60 21 T120 21 T180 21 T240 21'/%3E%3C/g%3E%3C/svg%3E"),
+    linear-gradient(180deg, #fff 0%, var(--surface) 100%);
+}
+.hero .wrap { display: block; }
+.hero .copy { max-width: 580px; }
+.hero h1 { color: var(--navy-900); font-size: clamp(38px, 5vw, 64px); }
+.hero h1 .red { color: var(--red); display: block; }
+.hero .sub { color: var(--ink-2); }
+.hero .btn-line { background: #fff; color: var(--navy); box-shadow: inset 0 0 0 1.5px #c9d2e3; }
+.hero .btn-line:hover { box-shadow: inset 0 0 0 1.5px var(--navy); }
+.ticks li { color: var(--ink-2); }
+.ticks .ico { color: var(--blue); }
+
+/* The clip is a seamless 7.7s loop on white. Multiply drops its white into the page, so there is no box,
+   only the kalash and its glow; it bleeds past the right edge like part of the page, not a video. */
+.kalash {
+  position: absolute; z-index: -1; top: 50%; right: -2vw;
+  width: min(85vw, 1500px); aspect-ratio: 16 / 9; height: auto;
+  transform: translateY(-50%); mix-blend-mode: multiply; pointer-events: none;
+}
+
+.visit iframe { background: var(--surface); }
+
+/* ---------- The committee you know ---------- */
+.committee { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: clamp(32px, 5vw, 64px); align-items: center; }
+.committee .lede { margin-top: 16px; color: var(--ink-2); font-size: 18px; }
+.compare td.old { color: var(--ink-3); text-decoration: line-through; text-decoration-color: rgba(232, 51, 58, .6); }
+.compare td.us .ico { width: 16px; height: 16px; vertical-align: -3px; margin-right: 8px; color: var(--blue); }
+
+@media (max-width: 900px) {
+  .committee { grid-template-columns: 1fr; }
+  /* Phones and tablets: the kalash sits centred above the headline, its empty top and side cropped away. */
+  .hero { display: block; min-height: 0; padding-top: 80vw; }
+  .kalash { top: -16vw; right: auto; left: -62vw; width: 170vw; transform: none; }
+}
+@media (max-width: 640px) {
+  .brand img { height: 46px; }
+  .header .wrap { height: 72px; }
+}
